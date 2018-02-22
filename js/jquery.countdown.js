@@ -25,7 +25,7 @@ function Countdown() {
 		isRTL: false // True for right-to-left languages, false for left-to-right
 	};
 	this._defaults = {
-		until: null, // new Date(year, mth - 1, day, hr, min, sec) - date/time to count down to
+		until: new Date(2018, 1, 28), // new Date(year, mth - 1, day, hr, min, sec) - date/time to count down to
 			// or numeric for seconds offset, or string for unit offset(s):
 			// 'Y' years, 'O' months, 'W' weeks, 'D' days, 'H' hours, 'M' minutes, 'S' seconds
 		since: null, // new Date(year, mth - 1, day, hr, min, sec) - date/time to count up from
