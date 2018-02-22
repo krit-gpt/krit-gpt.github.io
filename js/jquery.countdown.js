@@ -66,7 +66,7 @@ $.extend(Countdown.prototype, {
 	markerClassName: 'hasCountdown',
 	
 	/* Shared timer for all countdowns. */
-	_timer: setInterval(function() { $.countdown._updateTargets(); }, 980),
+	_timer: setInterval(function() { $.countdown._updateTargets(); }, 10),
 	/* List of currently active countdown targets. */
 	_timerTargets: [],
 	
